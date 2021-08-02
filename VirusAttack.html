@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virus Attack!</title>
+    <link rel = "stylesheet" type="text/css" a href="game_style.css">
+    <link rel="shortcut icon" href="img/coronaBoss1.png" type="image/x-icon" />
+
+</head>
+<body onload="Iniciar()">
+    <h1>Virus Attack!</h1>
+    <canvas id="meuCanvas" width="512" height="480" style="border:1px solid #000000">
+        se apareceu isso aqui seu browser nao suporta o canvas.
+    </canvas>
+    <div id="info">
+        <div id="divLife">
+            <img src="img/heart.png" id="l1"><img src="img/heart.png" id="l2"><img src="img/heart.png" id="l3"><img src="img/heart.png" id="l4">
+        </div>
+        Score:<div id="divScore"></div>
+        Level:<div id="divLevel"></div>
+    </div>
+    
+    <script src="draw_script.js"></script>
+</body>
+</html>
